@@ -1,6 +1,6 @@
 # Вёрстка лендинга для портфолио
 
-#### Techonologies, that i used
+#### Technologies, that i used
 > - PUG
 > - SCSS
 > - JavaScript
