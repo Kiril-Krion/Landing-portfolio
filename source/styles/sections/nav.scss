@@ -1,14 +1,25 @@
 .nav {
   display: inline-block;
-  vert-align: top;
-  padding-top: 7px;
-  margin-right: 15px;
+  vertical-align: top;
+  margin-left: 165px;
+
+  @media (max-width: 1030px) {
+    margin-left: 0;
+  }
+
+  @media (max-width: 1000px) {
+    margin-bottom: 25px;
+  }
+
+
+  
 
   &__link {
     display: inline-block;
     vertical-align: top;
     padding: 10px;
     font-family: $ff-main-bold;
+    font-size: 0.9rem;
     text-decoration: none;
     text-transform: capitalize;
     color: #424242;
@@ -32,6 +43,14 @@
 
     &:last-child:after {
       display: none;
+    }
+
+    @media (max-width: 530px) {
+      display: block;
+  
+      &::after {
+        display: none;
+      }
     }
   }
 }
