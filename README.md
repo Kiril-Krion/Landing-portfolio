@@ -1,1 +1,1 @@
-# Вёрстка лендинга для портфолио
+# Landing for portfolio
