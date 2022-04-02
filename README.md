@@ -1,4 +1,4 @@
-# Вёрстка лендинга для портфолио
+# Landing for portfolio
 
 #### Technologies, that i used
 > - PUG
